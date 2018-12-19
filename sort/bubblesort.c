@@ -1,4 +1,4 @@
-int *bubblesort(int v[],int n)
+int *BubbleSort(int v[],int n)
 {
   int i,j,temp;
   /*from 1 to n, compare ith element*/

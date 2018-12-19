@@ -13,13 +13,21 @@ int *input_arr(int v[])
 void print_arr(int v[], int n)
 {
   int j;
-for(j=0;j<n;j++)
-  printf("v[%d] is %d\n",j,v[j]);
+  for(j=0;j<n;j++)
+    printf("%d ",v[j]);
+  printf("\n");
 }
 int ArrLength(int *Arr) {
   int i = 0;
   while (Arr[i])
     i++;
   return i;
+}
+void swap(int v[], int i, int j)
+{
+  int temp;
+  temp = v[i];
+  v[i] = v[j];
+  v[j] = temp;
 }
 
