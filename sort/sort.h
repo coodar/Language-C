@@ -11,3 +11,7 @@ int *QuickSort(int v[], int left, int right);
 void swap(int v[], int i, int j);
 int *HeapSort(int v[], int n);
 int *CountingSort(int A[], int k);
+void BucketSort(int v[]);
+int getMax(int arr[], int n);
+void countSort(int arr[], int exp);
+void RadixSort(int v[]);

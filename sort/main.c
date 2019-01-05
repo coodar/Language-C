@@ -3,10 +3,13 @@
 
 int main()
 {
-  int a[MAXSIZE],n,*v, *result;
+  int a[MAXSIZE],n,*v;
   v = input_arr(a);
   n = ArrLength(v);
-  result = CountingSort(v,10); 
+  RadixSort(v); 
   printf("sizeof v is %d\n",n);
-  print_arr(result, n);
+  print_arr(v,n);
+
+
+
 }

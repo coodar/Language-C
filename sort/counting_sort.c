@@ -1,5 +1,6 @@
 #include "sort.h"
 #include <stdlib.h>
+/*each elemnet of A is a nonnegtive integer no larger than k */
 int *CountingSort(int A[], int k)
 {
   int i,j,n,*B,*C;
